@@ -1,10 +1,5 @@
-   
-   {
-    CONTAIN-INTRISIC-BLOCK-SIZE : :auto 100px;
-    paddiing : 0'
-   }
-
-   {CONTAIN-INTRINSIC-BLOCK-SIZE: AUTO 100PX;
+* {
+    CONTAIN-INTRINSIC-BLOCK-SIZE: AUTO 100PX;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -755,3 +750,94 @@ i.fa-solid.fa-greater-than {
 .header-logo.width-5-percent img {
     border-radius: 50px;
 }
+
+.footer-four-box {
+    padding: 30px 0;
+}
+
+.footer-single-text>nav>ul>li> a:hover {
+    color: white;
+}
+
+
+.social-media>nav>ul>li {
+    margin-right: 20px;
+    background: white;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+.project-single-box {
+    width: 32%;
+}
+
+
+.my-project>h2 a:hover,
+.project-name>h2 a:hover {
+    text-decoration: underline;
+}
+
+
+.project-img img {
+    border-radius: 12px;
+    /* overflow: hidden; */
+}
+
+.my-project>h2 a:hover,
+.project-name>h2 a:hover {
+    color: wheat;
+}
+
+.slider-main .bx-wrapper {
+    margin-bottom: 0;
+}
+
+
+
+
+.footer-three-box.display-flex.justify-content-between {
+    width: 73%;
+}
+
+.slider-main .bx-wrapper {
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+
+.footer-single-heading.margin-bottom-10px>h2>a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.section-title-style h2 {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif !important;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #222222;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    width: auto;
+    padding: 0 80px;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.bg-red {
+    background-color:wheat;
+}
+
+.background-color-green{
+    background-color: green;
+}
+
